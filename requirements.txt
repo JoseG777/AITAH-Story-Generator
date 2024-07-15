@@ -7,3 +7,4 @@ python-dotenv==0.20.0
 flake8==3.9.2
 black==21.9b0
 pylint==2.7.4
+tavily-python==0.3.4
