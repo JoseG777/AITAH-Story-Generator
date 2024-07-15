@@ -1,5 +1,22 @@
 [MASTER]
-ignore=CVS, .git, __pycache__,old,build,dist
+ignore=venv
+init-hook="import sys; from pathlib import Path; sys.path.append(str(Path('.').resolve() / 'utils'))"
 
 [MESSAGES CONTROL]
-disable=C0111
+disable=C0111,  # Missing docstring
+        R0801,  # Duplicate code
+        E1101,  # os.getenv no-member issue
+        E0401   # Unable to import issue
+
+[DESIGN]
+max-args=5
+max-locals=15
+max-returns=6
+max-branches=12
+max-statements=50
+max-parents=7
+max-attributes=7
+max-public-methods=20
+
+[FORMAT]
+max-line-length=88
