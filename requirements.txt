@@ -1,2 +1,9 @@
-flake8==5.0.0
-pylint==3.0.0
+IPython==8.0.1
+langchain-community>=0.1
+langchain-openai>=0.1
+langgraph>=0.1.8
+openai>=1.6.1
+python-dotenv==0.20.0
+flake8==3.9.2
+black==21.9b0
+pylint==2.7.4
