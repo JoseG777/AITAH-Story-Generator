@@ -3,10 +3,15 @@ ignore=venv
 init-hook="import sys; from pathlib import Path; sys.path.append(str(Path('.').resolve() / 'utils'))"
 
 [MESSAGES CONTROL]
-disable=C0111,  # Missing docstring
-        R0801,  # Duplicate code
-        E1101,  # os.getenv no-member issue
-        E0401   # Unable to import issue
+disable=
+    C0114,  # Missing module docstring
+    C0115,  # Missing class docstring
+    C0116,  # Missing function or method docstring
+    E0401,  # Unable to import
+    R0903,  # Too few public methods
+    E0012,  # Bad option value for --disable
+    F0002,  # Pylint internal error
+    E1101
 
 [DESIGN]
 max-args=5
