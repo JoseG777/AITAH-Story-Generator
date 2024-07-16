@@ -12,6 +12,7 @@ disable=
     E0012,  # Bad option value for --disable
     F0002,  # Pylint internal error
     E1101,
+    C0412,
 
 [DESIGN]
 max-args=5

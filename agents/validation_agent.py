@@ -3,7 +3,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from agents.base_agent import AgentState
 
 
-class CoherenceAgent:
+class ValidationAgent:
     def __init__(self, model, system=""):
         self.system = system
         graph = StateGraph(AgentState)
