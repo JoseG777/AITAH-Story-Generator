@@ -1,6 +1,6 @@
 # r/AITAH Story Generator
 ## About:
-This project helps users who can't get enough of the latest trending stories from the r/AITAH subreddit by creating new, unique stories. Utilizing Tavily's API, the program fetches the most trending r/AITAH stories and employs OpenAI to generate new stories based on the fetched information.
+This terminal-based project helps users who can't get enough of the latest trending stories from the r/AITAH subreddit by creating new, unique stories. Utilizing Tavily's API, the program fetches the most trending r/AITAH stories and employs OpenAI to generate new stories based on the fetched information.
 
 
 ## How It Works
