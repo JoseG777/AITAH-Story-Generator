@@ -13,6 +13,8 @@ disable=
     F0002,  # Pylint internal error
     E1101,
     C0412,
+    C0301,
+    E501,
 
 [DESIGN]
 max-args=5
