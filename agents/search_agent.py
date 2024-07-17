@@ -1,9 +1,10 @@
 from langgraph.graph import StateGraph, END
 from langchain_core.messages import ToolMessage
 from agents.base_agent import AgentState
-import logging
 
-logging.basicConfig(level=logging.DEBUG)
+# import logging
+
+# logging.basicConfig(level=logging.DEBUG)
 
 
 class SearchAgent:
