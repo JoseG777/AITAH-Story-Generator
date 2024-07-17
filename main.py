@@ -12,7 +12,7 @@ from agents.base_agent import AgentState
 load_dotenv()
 
 # Initializing Tavily. adjust max_results to reduce tokens used
-tavily_tool = TavilySearchResults(max_results=10, search_depth="advanced")
+tavily_tool = TavilySearchResults(max_results=5, search_depth="advanced")
 
 # Initializing the OpenAI model
 model = ChatOpenAI(model="gpt-4o")

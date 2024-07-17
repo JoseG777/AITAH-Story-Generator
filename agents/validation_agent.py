@@ -3,6 +3,7 @@ from langchain_core.messages import HumanMessage, SystemMessage
 from agents.base_agent import AgentState
 
 
+# The purpose of this agent is to ensure we're returning the user somehting coherent
 class ValidationAgent:
     def __init__(self, model, system=""):
         self.system = system
@@ -14,7 +15,7 @@ class ValidationAgent:
         self.model = model
 
     def validate_coherence(self, state: AgentState) -> dict:
-        """Validate the coherence of the provided summary using OpenAI."""
+        """Validate the coherence of the provided text using OpenAI."""
         messages = state["messages"]
         summary_to_validate = messages[-1].content
         response = self.model.invoke(

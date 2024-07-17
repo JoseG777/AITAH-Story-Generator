@@ -7,6 +7,7 @@ from agents.base_agent import AgentState
 # logging.basicConfig(level=logging.DEBUG)
 
 
+# The purpose of this agent is to search for the trending r/AITAH stories
 class SearchAgent:
     def __init__(self, model, tools, system=""):
         self.system = system

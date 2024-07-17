@@ -8,6 +8,7 @@ from agents.base_agent import AgentState
 # logging.basicConfig(level=logging.DEBUG)
 
 
+# The purpose of this agent is to create a new r/AITAH story
 class CreationAgent:
     def __init__(self, model, system=""):
         self.system = system
