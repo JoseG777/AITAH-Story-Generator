@@ -31,7 +31,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Set up environment variables:
+4. Set up environment variables in a .env file:
 ```bash
 OPENAI_API_KEY="your_openai_api_key"
 
